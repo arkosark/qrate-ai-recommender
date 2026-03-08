@@ -81,7 +81,7 @@ See `.env.example` for all required variables.
 
 Key variables:
 - `DB_HOST`, `DB_USER`, `DB_PASSWORD`, `DB_NAME` — same as other QRate services
-- `BEDROCK_MODEL_ID` — `anthropic.claude-sonnet-4-5`
+- `BEDROCK_MODEL_ID` — `anthropic.claude-sonnet-4-6`
 - `TITAN_EMBEDDING_MODEL_ID` — `amazon.titan-embed-text-v2:0`
 - `DYNAMODB_SESSIONS_TABLE` — `recommendation-sessions-{env}`
 - `PORT` — `8004`

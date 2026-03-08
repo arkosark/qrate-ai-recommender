@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     aws_region: str = "us-east-1"
     aws_access_key_id: str = ""
     aws_secret_access_key: str = ""
-    bedrock_model_id: str = "anthropic.claude-sonnet-4-5"
+    bedrock_model_id: str = "anthropic.claude-sonnet-4-6"
     titan_embedding_model_id: str = "amazon.titan-embed-text-v2:0"
     bedrock_endpoint: str = ""  # empty = use real AWS Bedrock
 
