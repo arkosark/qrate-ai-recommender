@@ -10,7 +10,7 @@ from app.pipeline.step1_hard_filter import hard_filter, _build_incompatible_tags
 from app.models.guest import GuestProfile, PreferenceMap
 
 
-RESTAURANT_ID = UUID("r0000000-0000-0000-0000-000000000001")
+RESTAURANT_ID = UUID("a0000000-0000-0000-0000-000000000001")
 SAFE_IDS = [
     UUID("a1b2c3d4-0002-0000-0000-000000000002"),  # Avocado Salad (vegan, no allergens)
     UUID("a1b2c3d4-0008-0000-0000-000000000008"),  # Vegan Black Bean Burger
