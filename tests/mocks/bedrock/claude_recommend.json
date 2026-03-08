@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/model/anthropic\\.claude.*/invoke"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "jsonBody": {
+      "id": "mock-msg-001",
+      "type": "message",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"selected_item_id\": \"a1b2c3d4-0001-0000-0000-000000000001\", \"selected_item_name\": \"Habanero Shrimp Tacos\", \"pitch\": \"Since you love spicy and crunchy, our Habanero Shrimp Tacos are made for you — crispy shrimp in a fiery habanero glaze that'll light up your evening.\", \"upsell_triggered\": true, \"upsell_item_id\": \"a1b2c3d4-0010-0000-0000-000000000010\", \"upsell_item_name\": \"Fresh Guacamole & Chips\", \"upsell_pitch\": \"Add our table-side guac — it's the perfect cooling counterpoint to all that heat.\", \"reasoning\": \"Best semantic match for spicy/crunchy request with high margin score.\"}"
+        }
+      ],
+      "model": "claude-sonnet-4-5",
+      "stop_reason": "end_turn",
+      "usage": {
+        "input_tokens": 450,
+        "output_tokens": 120
+      }
+    }
+  }
+}

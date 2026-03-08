@@ -1,0 +1,37 @@
+version: "3.9"
+
+# Lightweight test stack — CI-friendly, no persistent volumes, ephemeral containers
+
+services:
+  postgres-test:
+    image: pgvector/pgvector:pg15
+    environment:
+      POSTGRES_DB: menucrawler_test
+      POSTGRES_USER: qrate
+      POSTGRES_PASSWORD: testpassword
+    ports:
+      - "5433:5432"
+    tmpfs:
+      - /var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U qrate -d menucrawler_test"]
+      interval: 3s
+      timeout: 3s
+      retries: 10
+
+  localstack-test:
+    image: localstack/localstack:3.0
+    environment:
+      SERVICES: dynamodb
+      DEFAULT_REGION: us-east-1
+    ports:
+      - "4567:4566"
+    tmpfs:
+      - /tmp/localstack
+
+  bedrock-mock-test:
+    image: wiremock/wiremock:3.3.1
+    ports:
+      - "8081:8080"
+    volumes:
+      - ./tests/mocks/bedrock:/home/wiremock/mappings

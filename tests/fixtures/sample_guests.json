@@ -1,0 +1,144 @@
+[
+  {
+    "id": "g0000000-0000-0000-0000-000000000001",
+    "name": "Nut Allergy Guest",
+    "allergens": ["nuts"],
+    "dietary_restrictions": [],
+    "spice_preference": 3,
+    "favorite_cuisines": ["mexican", "american"],
+    "preference_map": {
+      "spice_level": 3,
+      "flavor_prefs": ["savory", "crunchy"],
+      "drink_preference": "margarita"
+    },
+    "visit_context": "Casual"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000002",
+    "name": "Vegan Guest",
+    "allergens": [],
+    "dietary_restrictions": ["vegan"],
+    "spice_preference": 2,
+    "favorite_cuisines": ["american", "mediterranean"],
+    "preference_map": {
+      "spice_level": 2,
+      "flavor_prefs": ["fresh", "light"],
+      "texture_prefs": ["crunchy"],
+      "drink_preference": "water"
+    },
+    "visit_context": "Business Lunch"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000003",
+    "name": "Shellfish Allergy Guest",
+    "allergens": ["shellfish"],
+    "dietary_restrictions": [],
+    "spice_preference": 4,
+    "favorite_cuisines": ["mexican", "thai"],
+    "preference_map": {
+      "spice_level": 4,
+      "flavor_prefs": ["spicy", "crunchy"],
+      "drink_preference": "beer"
+    },
+    "visit_context": "Pre-Game"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000004",
+    "name": "Date Night Guest — No restrictions",
+    "allergens": [],
+    "dietary_restrictions": [],
+    "spice_preference": 3,
+    "favorite_cuisines": ["italian", "mediterranean"],
+    "preference_map": {
+      "spice_level": 3,
+      "likes_wine": true,
+      "flavor_prefs": ["umami", "savory"],
+      "texture_prefs": ["creamy"],
+      "drink_preference": "wine"
+    },
+    "visit_context": "Date Night",
+    "birthday": null,
+    "anniversary_date": null
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000005",
+    "name": "Birthday Guest",
+    "allergens": [],
+    "dietary_restrictions": [],
+    "spice_preference": 2,
+    "favorite_cuisines": ["american"],
+    "preference_map": {
+      "spice_level": 2,
+      "flavor_prefs": ["savory", "crunchy"],
+      "drink_preference": "cocktail"
+    },
+    "visit_context": "Celebration",
+    "birthday": "__TODAY__"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000006",
+    "name": "Light Citrus Seeker",
+    "allergens": [],
+    "dietary_restrictions": ["pescatarian"],
+    "spice_preference": 1,
+    "favorite_cuisines": ["mediterranean", "japanese"],
+    "preference_map": {
+      "spice_level": 1,
+      "flavor_prefs": ["citrus", "light", "fresh"],
+      "drink_preference": "wine"
+    },
+    "visit_context": "Casual"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000007",
+    "name": "Multi-allergy Guest (nuts + shellfish + dairy)",
+    "allergens": ["nuts", "shellfish", "dairy"],
+    "dietary_restrictions": [],
+    "spice_preference": 3,
+    "favorite_cuisines": ["american", "mexican"],
+    "preference_map": {
+      "spice_level": 3,
+      "flavor_prefs": ["spicy", "savory"],
+      "drink_preference": "beer"
+    },
+    "visit_context": "Casual"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000008",
+    "name": "Anonymous Guest",
+    "allergens": [],
+    "dietary_restrictions": [],
+    "spice_preference": null,
+    "favorite_cuisines": [],
+    "preference_map": {},
+    "visit_context": null
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000009",
+    "name": "Halal Guest",
+    "allergens": [],
+    "dietary_restrictions": ["halal"],
+    "spice_preference": 4,
+    "favorite_cuisines": ["mediterranean", "indian"],
+    "preference_map": {
+      "spice_level": 4,
+      "flavor_prefs": ["spicy", "smoky", "herby"],
+      "drink_preference": "none"
+    },
+    "visit_context": "Business Lunch"
+  },
+  {
+    "id": "g0000000-0000-0000-0000-000000000010",
+    "name": "Gluten-free High Spice Guest",
+    "allergens": ["gluten"],
+    "dietary_restrictions": ["gluten_free"],
+    "spice_preference": 5,
+    "favorite_cuisines": ["mexican", "japanese", "thai"],
+    "preference_map": {
+      "spice_level": 5,
+      "flavor_prefs": ["spicy", "umami", "citrus"],
+      "drink_preference": "margarita"
+    },
+    "visit_context": "Casual"
+  }
+]

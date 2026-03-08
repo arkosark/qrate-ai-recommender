@@ -1,0 +1,223 @@
+[
+  {
+    "id": "a1b2c3d4-0001-0000-0000-000000000001",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Habanero Shrimp Tacos",
+    "description": "Crispy shrimp in habanero glaze, served on corn tortillas with slaw",
+    "price": 16.99,
+    "margin_score": 8.5,
+    "food_tags": {
+      "allergens": ["shellfish", "gluten"],
+      "dietary": ["pescatarian"],
+      "flavors": ["spicy", "crunchy", "citrus"],
+      "cuisine": "mexican",
+      "category": "entree"
+    },
+    "upsell_pointers": ["a1b2c3d4-0010-0000-0000-000000000010"],
+    "cross_sell_pointers": ["a1b2c3d4-0020-0000-0000-000000000020"]
+  },
+  {
+    "id": "a1b2c3d4-0002-0000-0000-000000000002",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Grilled Avocado Salad",
+    "description": "Chargrilled avocado halves on mixed greens with lime vinaigrette",
+    "price": 13.50,
+    "margin_score": 7.0,
+    "food_tags": {
+      "allergens": [],
+      "dietary": ["vegan", "vegetarian", "gluten_free"],
+      "flavors": ["citrus", "light", "fresh"],
+      "cuisine": "american",
+      "category": "salad"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": ["a1b2c3d4-0021-0000-0000-000000000021"]
+  },
+  {
+    "id": "a1b2c3d4-0003-0000-0000-000000000003",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Peanut Chicken Satay",
+    "description": "Grilled chicken skewers with peanut dipping sauce",
+    "price": 14.00,
+    "margin_score": 6.5,
+    "food_tags": {
+      "allergens": ["nuts", "gluten"],
+      "dietary": ["meat"],
+      "flavors": ["savory", "nutty"],
+      "cuisine": "thai",
+      "category": "appetizer"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  },
+  {
+    "id": "a1b2c3d4-0004-0000-0000-000000000004",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Truffle Mushroom Risotto",
+    "description": "Creamy arborio rice with wild mushrooms and black truffle oil",
+    "price": 22.00,
+    "margin_score": 9.2,
+    "food_tags": {
+      "allergens": ["dairy"],
+      "dietary": ["vegetarian"],
+      "flavors": ["umami", "creamy", "earthy"],
+      "cuisine": "italian",
+      "category": "entree"
+    },
+    "upsell_pointers": ["a1b2c3d4-0011-0000-0000-000000000011"],
+    "cross_sell_pointers": ["a1b2c3d4-0022-0000-0000-000000000022"]
+  },
+  {
+    "id": "a1b2c3d4-0005-0000-0000-000000000005",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Nashville Hot Chicken Sandwich",
+    "description": "Crispy fried chicken breast in Nashville hot sauce on brioche",
+    "price": 15.50,
+    "margin_score": 7.8,
+    "food_tags": {
+      "allergens": ["gluten", "eggs", "dairy"],
+      "dietary": ["meat"],
+      "flavors": ["spicy", "crunchy", "smoky"],
+      "cuisine": "american",
+      "category": "sandwich"
+    },
+    "upsell_pointers": ["a1b2c3d4-0012-0000-0000-000000000012"],
+    "cross_sell_pointers": ["a1b2c3d4-0023-0000-0000-000000000023"]
+  },
+  {
+    "id": "a1b2c3d4-0006-0000-0000-000000000006",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Citrus Salmon",
+    "description": "Pan-seared salmon fillet with lemon butter, capers and dill",
+    "price": 24.00,
+    "margin_score": 8.0,
+    "food_tags": {
+      "allergens": ["fish", "dairy"],
+      "dietary": ["pescatarian", "gluten_free"],
+      "flavors": ["citrus", "light", "savory"],
+      "cuisine": "mediterranean",
+      "category": "entree"
+    },
+    "upsell_pointers": ["a1b2c3d4-0013-0000-0000-000000000013"],
+    "cross_sell_pointers": ["a1b2c3d4-0022-0000-0000-000000000022"]
+  },
+  {
+    "id": "a1b2c3d4-0007-0000-0000-000000000007",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Spicy Tuna Roll",
+    "description": "Fresh tuna, sriracha mayo, cucumber, avocado in nori",
+    "price": 17.00,
+    "margin_score": 8.8,
+    "food_tags": {
+      "allergens": ["fish", "sesame"],
+      "dietary": ["pescatarian"],
+      "flavors": ["spicy", "fresh", "umami"],
+      "cuisine": "japanese",
+      "category": "sushi"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": ["a1b2c3d4-0024-0000-0000-000000000024"]
+  },
+  {
+    "id": "a1b2c3d4-0008-0000-0000-000000000008",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Vegan Black Bean Burger",
+    "description": "House-made black bean patty, avocado, pickled onion on a wheat bun",
+    "price": 13.00,
+    "margin_score": 6.0,
+    "food_tags": {
+      "allergens": ["gluten"],
+      "dietary": ["vegan", "vegetarian"],
+      "flavors": ["savory", "hearty"],
+      "cuisine": "american",
+      "category": "burger"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": ["a1b2c3d4-0025-0000-0000-000000000025"]
+  },
+  {
+    "id": "a1b2c3d4-0009-0000-0000-000000000009",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Lamb Kofta Plate",
+    "description": "Grilled lamb kofta with tzatziki, hummus and warm pita",
+    "price": 19.50,
+    "margin_score": 7.5,
+    "food_tags": {
+      "allergens": ["dairy", "gluten"],
+      "dietary": ["meat", "halal"],
+      "flavors": ["savory", "smoky", "herby"],
+      "cuisine": "mediterranean",
+      "category": "entree"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  },
+  {
+    "id": "a1b2c3d4-0010-0000-0000-000000000010",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Fresh Guacamole & Chips (Premium)",
+    "description": "Table-side guacamole with heirloom tomatoes and jalapeño",
+    "price": 12.00,
+    "margin_score": 9.5,
+    "food_tags": {
+      "allergens": [],
+      "dietary": ["vegan", "vegetarian", "gluten_free"],
+      "flavors": ["citrus", "fresh", "light"],
+      "cuisine": "mexican",
+      "category": "appetizer"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  },
+  {
+    "id": "a1b2c3d4-0020-0000-0000-000000000020",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Skinny Margarita",
+    "description": "Fresh lime, agave, silver tequila — no mixers",
+    "price": 11.00,
+    "margin_score": 9.0,
+    "food_tags": {
+      "allergens": [],
+      "dietary": ["vegan", "gluten_free"],
+      "flavors": ["citrus", "fresh"],
+      "cuisine": "mexican",
+      "category": "cocktail,drink,beverage"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  },
+  {
+    "id": "a1b2c3d4-0021-0000-0000-000000000021",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "Sparkling Water",
+    "description": "Filtered sparkling water with lemon",
+    "price": 3.50,
+    "margin_score": 8.0,
+    "food_tags": {
+      "allergens": [],
+      "dietary": ["vegan", "gluten_free"],
+      "flavors": ["light", "fresh"],
+      "cuisine": "american",
+      "category": "drink,beverage,water"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  },
+  {
+    "id": "a1b2c3d4-0022-0000-0000-000000000022",
+    "restaurant_id": "r0000000-0000-0000-0000-000000000001",
+    "name": "House Chardonnay",
+    "description": "California Chardonnay — light, crisp, citrus notes",
+    "price": 12.00,
+    "margin_score": 8.5,
+    "food_tags": {
+      "allergens": ["sulfites"],
+      "dietary": ["vegan"],
+      "flavors": ["citrus", "light"],
+      "cuisine": "american",
+      "category": "wine,drink,beverage"
+    },
+    "upsell_pointers": [],
+    "cross_sell_pointers": []
+  }
+]
