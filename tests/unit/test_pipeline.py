@@ -11,7 +11,7 @@ from app.pipeline.orchestrator import run_pipeline
 from app.models.guest import GuestProfile, PreferenceMap, VisitContext
 from app.models.environment import EnvironmentalContext
 
-RESTAURANT_ID = UUID("r0000000-0000-0000-0000-000000000001")
+RESTAURANT_ID = UUID("a0000000-0000-0000-0000-000000000001")
 SESSION_ID = "test-pipeline-session-001"
 
 SAFE_IDS = [

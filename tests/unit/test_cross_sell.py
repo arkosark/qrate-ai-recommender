@@ -3,6 +3,7 @@ Unit tests for Step 4 — Cross-Sell.
 """
 import json
 import pytest
+from types import SimpleNamespace
 from unittest.mock import AsyncMock, MagicMock, patch
 from uuid import UUID
 
@@ -13,7 +14,7 @@ ACCEPTED_ITEM_ID = UUID("a1b2c3d4-0001-0000-0000-000000000001")
 CROSS_SELL_IDS = [UUID("a1b2c3d4-0020-0000-0000-000000000020")]
 
 MOCK_DB_ROWS = [
-    MagicMock(
+    SimpleNamespace(
         id="a1b2c3d4-0020-0000-0000-000000000020",
         name="Skinny Margarita",
         description="Fresh lime, tequila",
